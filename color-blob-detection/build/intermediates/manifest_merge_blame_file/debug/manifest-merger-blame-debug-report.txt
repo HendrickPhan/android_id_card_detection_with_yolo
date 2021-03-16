@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.opencv.samples.colorblobdetect"
+4    android:versionCode="301"
+5    android:versionName="3.01" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+10
+11    <supports-screens
+11-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:22:5-26:51
+12        android:anyDensity="true"
+12-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:26:23-48
+13        android:largeScreens="true"
+13-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:25:23-50
+14        android:normalScreens="true"
+14-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:24:23-51
+15        android:resizeable="true"
+15-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:22:23-48
+16        android:smallScreens="true" />
+16-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:23:23-50
+17
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:28:5-64
+18-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:28:22-62
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:29:5-80
+19-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:29:22-78
+20
+21    <uses-feature
+21-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:30:5-84
+22        android:name="android.hardware.camera"
+22-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:30:19-57
+23        android:required="false" />
+23-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:30:58-82
+24    <uses-feature
+24-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:31:5-94
+25        android:name="android.hardware.camera.autofocus"
+25-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:31:19-67
+26        android:required="false" />
+26-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:31:68-92
+27    <uses-feature
+27-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:32:5-90
+28        android:name="android.hardware.camera.front"
+28-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:32:19-63
+29        android:required="false" />
+29-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:32:64-88
+30    <uses-feature
+30-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:33:5-100
+31        android:name="android.hardware.camera.front.autofocus"
+31-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:33:19-73
+32        android:required="false" />
+32-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:33:74-98
+33
+34    <application
+34-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:6:5-20:19
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.2.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/5df47116837044e526e3d968340e6756/core-1.2.0/AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@drawable/icon"
+37-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:8:9-38
+38        android:label="@string/app_name"
+38-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:7:9-41
+39        android:testOnly="true"
+40        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+40-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:9:9-67
+41        <activity
+41-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:11:9-19:20
+42            android:name="org.opencv.samples.colorblobdetect.ColorBlobDetectionActivity"
+42-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:11:19-60
+43            android:configChanges="keyboardHidden|orientation"
+43-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:14:19-69
+44            android:label="@string/app_name"
+44-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:12:19-51
+45            android:screenOrientation="landscape" >
+45-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:13:19-56
+46            <intent-filter>
+46-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:15:13-18:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:16:17-69
+47-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:16:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:17:17-77
+49-->/home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:17:27-74
+50            </intent-filter>
+51        </activity>
+52    </application>
+53
+54</manifest>

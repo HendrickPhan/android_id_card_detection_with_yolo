@@ -1,0 +1,5 @@
+include ':opencv'
+include ':sdk'
+include ':color-blob-detection'
+include ':app'
+rootProject.name = "My Application"

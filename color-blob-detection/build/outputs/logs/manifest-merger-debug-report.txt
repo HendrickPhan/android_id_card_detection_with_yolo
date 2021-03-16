@@ -1,0 +1,127 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:2:1-35:12
+MERGED from [:opencv] /home/hieuphan/Downloads/MyApplication/opencv/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.core:core:1.2.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/5df47116837044e526e3d968340e6756/core-1.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/3e6df5fa881d52767aec83a827d30429/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/1b49f6b12087442447a2c9046372b97f/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:3:11-55
+		INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+		INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:2:1-35:12
+		INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:2:1-35:12
+		INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:6:5-20:19
+MERGED from [androidx.core:core:1.2.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/5df47116837044e526e3d968340e6756/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/5df47116837044e526e3d968340e6756/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/1b49f6b12087442447a2c9046372b97f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/1b49f6b12087442447a2c9046372b97f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/5df47116837044e526e3d968340e6756/core-1.2.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:7:9-41
+	android:icon
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:8:9-38
+	android:theme
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:9:9-67
+activity#org.opencv.samples.colorblobdetect.ColorBlobDetectionActivity
+ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:11:9-19:20
+	android:screenOrientation
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:13:19-56
+	android:label
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:12:19-51
+	android:configChanges
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:14:19-69
+	android:name
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:11:19-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:17:27-74
+supports-screens
+ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:22:5-26:51
+	android:largeScreens
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:25:23-50
+	android:smallScreens
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:23:23-50
+	android:normalScreens
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:24:23-51
+	android:resizeable
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:22:23-48
+	android:anyDensity
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:26:23-48
+uses-permission#android.permission.CAMERA
+ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:28:5-64
+	android:name
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:28:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:29:5-80
+	android:name
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:29:22-78
+uses-feature#android.hardware.camera
+ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:30:5-84
+	android:required
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:30:58-82
+	android:name
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:30:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:31:5-94
+	android:required
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:31:68-92
+	android:name
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:31:19-67
+uses-feature#android.hardware.camera.front
+ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:32:5-90
+	android:required
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:32:64-88
+	android:name
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:32:19-63
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:33:5-100
+	android:required
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:33:74-98
+	android:name
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml:33:19-73
+uses-sdk
+INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+MERGED from [:opencv] /home/hieuphan/Downloads/MyApplication/opencv/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:opencv] /home/hieuphan/Downloads/MyApplication/opencv/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.core:core:1.2.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/5df47116837044e526e3d968340e6756/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/5df47116837044e526e3d968340e6756/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/3e6df5fa881d52767aec83a827d30429/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/3e6df5fa881d52767aec83a827d30429/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/1b49f6b12087442447a2c9046372b97f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hieuphan/.gradle/caches/transforms-2/files-2.1/1b49f6b12087442447a2c9046372b97f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+		INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+		ADDED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml
+		INJECTED from /home/hieuphan/Downloads/MyApplication/color-blob-detection/AndroidManifest.xml

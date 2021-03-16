@@ -157,15 +157,17 @@ public class ColorBlobDetectionActivity extends CameraActivity implements CvCame
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
         Mat frame = inputFrame.rgba();
         Imgproc.cvtColor(frame, frame, Imgproc.COLOR_RGBA2RGB);
-        Size frame_size = new Size(320, 320);
+        Size frame_size = new Size(416, 416);
         Scalar mean = new Scalar(127.5);
-        Mat resized = new Mat();
+
         Mat blob = Dnn.blobFromImage(frame, 1.0 / 255.0, frame_size, mean, true, false);
         //save_mat(blob);
         net.setInput(blob);
 
         List<Mat> result = new ArrayList<>();
-        net.forward(result);
+        List<String> outBlobNames = net.getUnconnectedOutLayersNames();
+
+        net.forward(result, outBlobNames);
         float confThreshold = 0.5f;
 
         for (int i = 0; i < result.size(); ++i) {
@@ -196,7 +198,7 @@ public class ColorBlobDetectionActivity extends CameraActivity implements CvCame
                     DecimalFormat df = new DecimalFormat("#.##");
 
                     int class_id = (int) classIdPoint.x;
-                    String label= df.format(confidence);
+                    String label= ": " + df.format(confidence);
                     Scalar color= new Scalar(100,100,100);
 
                     Imgproc.rectangle(frame, left_top,right_bottom , color, 3, 2);
